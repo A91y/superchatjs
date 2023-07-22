@@ -24,7 +24,7 @@ const firestore = firebase.firestore();
 // const auth = getAuth(app);
 // const firestore = getFirestore(app);
 function App() {
-  console.log(import.meta.env.VITE_config);
+  // console.log(import.meta.env.VITE_config);
   const [user] = useAuthState(auth);
   return (
     <>
