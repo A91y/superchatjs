@@ -75,7 +75,8 @@ function ChatRoom() {
           value={formValue}
           onChange={(e) => setFormValue(e.target.value)}
         />
-        <button>🕊️</button>
+        {formValue ? <button>🕊️</button> : <button disabled>🕊️</button>}
+        {/* <button>🕊️</button> */}
       </form>
     </>
   );
